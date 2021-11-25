@@ -1,84 +1,128 @@
 const data = [
     {
-      question: "Who wrote the book of Jude?",
+      question: "What is the shortest book in the Bible?",
       incorrectAnswers: [
-        "Paul",
+        "Psalm 23",
+        "Proverbs 1",
         "Jude",
-        "James",
       ],
-      correctAnswer: "Jude the brother of Jesus Christ",
+      correctAnswer: "3 John",
     },
   
     {
-      question:
-        "Who wrote the book of James?",
+      question: "What 2 things did Jesus do to raise Lazarus back to life?",
       incorrectAnswers: [
-        "Jude",
-        "Peter",
-        "John",
+        "Prayed and spoke",
+        "Prayed and wept",
+        "Told them to remove Lazarus grave clothes and prayed",
       ],
-      correctAnswer: "James the brother of Jesus Christ",
+      correctAnswer: "He Prayed and told Lazarus to come out",
     },
     {
-      question: "What is the new commandment according to Jesus Christ?",
-      incorrectAnswers: ["10 Commandments", "Give", "Pray"],
-      correctAnswer: "Love",
+      question: "Which human author wrote the most books?",
+      incorrectAnswers: ["Peter", "David", "Moses"],
+      correctAnswer: "Paul",
     },
     {
-      question: "Who wrote the book of Job?",
-      incorrectAnswers: ["Job", "David", "Solomon"],
+      question: "Who was crucified upside down?",
+      incorrectAnswers: ["John", "Timothy", "Paul"],
+      correctAnswer: "Peter",
+    },
+    {
+      question: "How Many books did Paul write?",
+      incorrectAnswers: [
+        "5",
+        "10",
+        "15",
+      ],
+      correctAnswer: "13",
+    },
+    {
+      question: "In what language was most of the New Testament given?",
+      incorrectAnswers: [
+        "Aramaic",
+        "Hebrew",
+        "Yoruba",
+      ],
+      correctAnswer: "Greek",
+    },
+    {
+      question: "Which human author wrote the most words in the Bible?",
+      incorrectAnswers: ["David", "John", "Paul"],
       correctAnswer: "Moses",
     },
     {
-      question: "Who wrote the book of Genesis?",
+      question: "True or False: David wrote the entire book of Psalms?",
       incorrectAnswers: [
-        "Adam",
-        "Abraham",
-        "Jacob",
+        "False",
+        "Not sure",
+        "True: David wrote the entire book of Psalms",
       ],
-      correctAnswer: "Moses",
+      correctAnswer: "False: The Psalms were written by many writers, but David contributed most",
     },
     {
-      question: "Which King was deceived to go to Battle with the king of Israel?",
-      incorrectAnswers: [
-        "Ahab",
-        "Saul",
-        "David",
-      ],
-      correctAnswer: "Jehoshaphat",
-    },
-    {
-      question: "How many times did Naaman have to dip himself in the River Jordan to be healed?",
-      incorrectAnswers: ["10", "8", "5"],
-      correctAnswer: "7",
-    },
-    {
-      question: "Which of Paul's followers abandoned the ministry and forsook him?",
-      incorrectAnswers: [
-        "Timothy",
-        "Barnabas",
-        "John",
-      ],
-      correctAnswer: "Damas",
-    },
-    {
-        question: "How many years did the Israelites spend in Egypt before God delivered them?",
+        question: "How many words were written by Moses in the Bible?",
         incorrectAnswers: [
           "400",
           "40",
-          "500",
+          "200,000",
         ],
-        correctAnswer: "430",
+        correctAnswer: "125,139",
     },
     {
-        question: "Which two women were recorded as Heroes of Faith according to Hebrews 11?",
+        question: "How many times did David spare Saul's life?",
         incorrectAnswers: [
-          "Deborah and Esther",
-          "Ruth and Mary",
-          "Naomi and Elizabeth",
+          "5",
+          "3",
+          "1",
         ],
-        correctAnswer: "Sarah and Rahab",
+        correctAnswer: "2",
     },
+    {
+      question: "Who was David's captain of his army?",
+      incorrectAnswers: [
+        "Haggar",
+        "Absalom",
+        "Abner",
+      ],
+      correctAnswer: "Joab",
+  },
+  {
+    question: "Which books of the Bible record David's time as king?",
+    incorrectAnswers: [
+      "1st and 2nd John",
+      "1st and 2nd Chronicles",
+      "1st and 2nd Kings",
+    ],
+    correctAnswer: "1st and 2nd Samuel",
+  },
+  {
+    question: "How many kings of Judah were there?",
+    incorrectAnswers: [
+      "50",
+      "30",
+      "10",
+    ],
+    correctAnswer: "20",
+  },
+  {
+    question: "How many kings of Israel were there?",
+    incorrectAnswers: [
+      "20",
+      "13",
+      "10",
+    ],
+    correctAnswer: "19",
+  },
+  {
+    question: "Who let the Israelites return to their homeland?",
+    incorrectAnswers: [
+      "Herod",
+      "David",
+      "Ahab",
+    ],
+    correctAnswer: "Cyrus",
+  },
   ];
   
   export default data;
