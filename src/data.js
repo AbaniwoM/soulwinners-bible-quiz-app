@@ -1,127 +1,172 @@
 const data = [
     {
-      question: "Who was the first King of Israel?",
+      question: "Joseph was sold for how many pieces of Silver?",
       incorrectAnswers: [
-        "Darius",
-        "Ahab",
-        "David",
+        "10",
+        "40",
+        "30",
       ],
-      correctAnswer: "Saul",
+      correctAnswer: "20",
     },
   
     {
-      question: "Who was Jesus' birth Father?",
+      question: "Who was the father of Jesse?",
       incorrectAnswers: [
-        "Joseph",
+        "Boaz",
         "John",
+        "David",
+      ],
+      correctAnswer: "Obed",
+    },
+    {
+      question: "How many years did the Israelite spend in the wilderness?",
+      incorrectAnswers: ["60", "50", "30"],
+      correctAnswer: "40",
+    },
+    {
+      question: "Apart from Enoch, who else in the Bible did not see death?",
+      incorrectAnswers: ["Elisha", "John", "Peter"],
+      correctAnswer: "Elijah",
+    },
+    {
+      question: "Which prophet in the old testament prophesied the Birth of Jesus Christ?",
+      incorrectAnswers: [
+        "Obadiah",
+        "Amos",
+        "David",
+      ],
+      correctAnswer: "Isaiah",
+    },
+    {
+      question: "Which female prophet waited for the redemption of Jerusalem through the Birth of Jesus Christ before her death?",
+      incorrectAnswers: [
         "Mary",
+        "Deborah",
+        "Dorcas",
       ],
-      correctAnswer: "God",
+      correctAnswer: "Anna",
     },
     {
-      question: "Before Jesus started preaching, what was His job?",
-      incorrectAnswers: ["Pastor", "Teacher", "Public speaker"],
-      correctAnswer: "Carpenter",
+      question: "What tribe was Prophet Anna from?",
+      incorrectAnswers: ["Zebulun", "Judah", "Levi"],
+      correctAnswer: "Asher",
     },
     {
-      question: "Name Jesus' hometown?",
-      incorrectAnswers: ["Bethlehem", "Judea", "Israel"],
-      correctAnswer: "Nazareth",
-    },
-    {
-      question: "Name the place where Jesus walked on water?",
+      question: "For how long did Prophet Ann live with her husband before he died?",
       incorrectAnswers: [
-        "Jerusalem",
-        "Gaza",
-        "Sea of Bethlehem",
+        "14 years",
+        "7 days",
+        "7 months",
       ],
-      correctAnswer: "Sea of Galilee",
+      correctAnswer: "7 years",
     },
     {
-      question: "What is the shortest verse in the Bible?",
-      incorrectAnswers: [
-        "Matthew 5:48",
-        "John 3:16",
-        "Mark 11:22",
-      ],
-      correctAnswer: "John 11:35",
-    },
-    {
-      question: "How many books of the Bible have the name John in them?",
-      incorrectAnswers: ["Three", "Five", "Seven"],
-      correctAnswer: "Four",
-    },
-    {
-      question: "True or False: David wrote the entire book of Psalms?",
-      incorrectAnswers: [
-        "False",
-        "Not sure",
-        "True: David wrote the entire book of Psalms",
-      ],
-      correctAnswer: "False: The Psalms were written by many writers, but David contributed most",
-    },
-    {
-        question: "How many words were written by Moses in the Bible?",
+        question: "About how many souls were won by the apostles immediately they received the Holy Spirit at the upper room?",
         incorrectAnswers: [
           "400",
-          "40",
-          "200,000",
+          "4000",
+          "2000",
         ],
-        correctAnswer: "125,139",
+        correctAnswer: "3000",
     },
     {
-        question: "How many of Jesus' brothers are named in the Bible?",
+        question: "Who was bitten by a viper and did not die?",
         incorrectAnswers: [
-          "5",
-          "3",
-          "1",
+          "John",
+          "James",
+          "Peter",
         ],
-        correctAnswer: "4",
+        correctAnswer: "Paul",
     },
     {
-      question: "Who was Jesus' most famous cousin?",
+      question: "Who provided the tomb where  Jesus was buried?",
       incorrectAnswers: [
         "Joseph",
         "Matthew",
         "John",
       ],
-      correctAnswer: "John the Baptist",
+      correctAnswer: "Joseph of Arimathea",
   },
   {
-    question: "Which books of the Bible record David's time as king?",
+    question: "Joseph of Arimathea was a?",
     incorrectAnswers: [
-      "1st and 2nd John",
-      "1st and 2nd Chronicles",
-      "1st and 2nd Kings",
+      "Centurion",
+      "Levite",
+      "Gentile",
     ],
-    correctAnswer: "1st and 2nd Samuel",
+    correctAnswer: "Jew",
   },
   {
-    question: "In what language was most of the old testament written?",
+    question: "Where did Jesus turn water to wine?",
     incorrectAnswers: [
-      "Jewish",
-      "Aramaic",
-      "Greek",
+      "Canaan",
+      "Bethlehem",
+      "Judah",
     ],
-    correctAnswer: "Hebrew",
+    correctAnswer: "Cana",
   },
   {
-    question: "What was most likely the first Gospel written?",
+    question: "What book of the Bible explains in details why we should pay our tithes?",
     incorrectAnswers: [
       "Luke",
-      "John",
+      "Genesis",
       "Matthew",
     ],
-    correctAnswer: "Mark",
+    correctAnswer: "Malachi",
   },
   {
-    question: "How many people were saved on the ark?",
+    question: "How many disciples were present at the transfiguration of Jesus Christ?",
     incorrectAnswers: [
       "7",
-      "5",
+      "4",
       "10",
     ],
-    correctAnswer: "8",
+    correctAnswer: "3",
+  },
+  {
+    question: "According to Jesus Christ, we are to baptize in whose name?",
+    incorrectAnswers: [
+      "In the name of the Trinity",
+      "In the name of God",
+      "In the name of Jesus Christ",
+    ],
+    correctAnswer: "In the name of The Father, Son and Holy Spirit",
+  },
+  {
+    question: "How many years did Jesus spend on earth?",
+    incorrectAnswers: [
+      "34",
+      "32",
+      "30",
+    ],
+    correctAnswer: "33",
+  },
+  {
+    question: "Who followed Jesus Christ at a distance after He was arrested?",
+    incorrectAnswers: [
+      "Jude",
+      "John",
+      "James",
+    ],
+    correctAnswer: "Peter",
+  },
+  {
+    question: "Judas betrayed Jesus Christ for how many pieces of Silver?",
+    incorrectAnswers: [
+      "20",
+      "40",
+      "10",
+    ],
+    correctAnswer: "30",
+  },
+  {
+    question: "How many times did David say he prayed daily?",
+    incorrectAnswers: [
+      "7",
+      "4",
+      "10",
+    ],
+    correctAnswer: "3",
   },
   ];
   

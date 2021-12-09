@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 
 body {
-  background-color: #c4e2fa;
   box-sizing: border-box;
+  background: linear-gradient(0deg, rgba(255, 0, 149, 0.178), rgba(255, 0, 149, 0.191));
+  background-size: cover;
 }
 
 .container {
   box-sizing: border-box;
-  background-color: #c4e2fa;
   font-family: 'Balsamiq Sans', cursive;
 }
 
