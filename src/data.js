@@ -1,27 +1,27 @@
 const data = [
     {
-      question: "Joseph was sold for how many pieces of Silver?",
+      question: "Which of Joseph's brothers prevented him from being killed by his other brothers?",
       incorrectAnswers: [
-        "10",
-        "40",
-        "30",
+        "Naphtali",
+        "Simeon",
+        "Gad",
       ],
-      correctAnswer: "20",
+      correctAnswer: "Reuben",
     },
   
     {
-      question: "Who was the father of Jesse?",
+      question: "Esau's wives were among the daughters of?",
       incorrectAnswers: [
-        "Boaz",
-        "John",
-        "David",
+        "Moab",
+        "Og",
+        "Canaan",
       ],
-      correctAnswer: "Obed",
+      correctAnswer: "Heth",
     },
     {
-      question: "How many years did the Israelite spend in the wilderness?",
-      incorrectAnswers: ["60", "50", "30"],
-      correctAnswer: "40",
+      question: "What is the whole duty of man according to the Bible?",
+      incorrectAnswers: ["Fear God", "Obey God", "Fear God and Praise Him"],
+      correctAnswer: "Fear God and Obey Him",
     },
     {
       question: "Apart from Enoch, who else in the Bible did not see death?",
@@ -29,13 +29,13 @@ const data = [
       correctAnswer: "Elijah",
     },
     {
-      question: "Which prophet in the old testament prophesied the Birth of Jesus Christ?",
+      question: "Which male prophet in the new testament awaited the birth of the Messiah?",
       incorrectAnswers: [
-        "Obadiah",
+        "Zachariah",
         "Amos",
-        "David",
+        "Isaiah",
       ],
-      correctAnswer: "Isaiah",
+      correctAnswer: "Simeon",
     },
     {
       question: "Which female prophet waited for the redemption of Jerusalem through the Birth of Jesus Christ before her death?",
@@ -70,13 +70,13 @@ const data = [
         correctAnswer: "3000",
     },
     {
-        question: "Who was bitten by a viper and did not die?",
+        question: "How many crowns are listed in the Bible as rewards in Heaven?",
         incorrectAnswers: [
-          "John",
-          "James",
-          "Peter",
+          "4",
+          "3",
+          "7",
         ],
-        correctAnswer: "Paul",
+        correctAnswer: "5",
     },
     {
       question: "Who provided the tomb where  Jesus was buried?",
@@ -97,13 +97,13 @@ const data = [
     correctAnswer: "Jew",
   },
   {
-    question: "Where did Jesus turn water to wine?",
+    question: "Who was put in hot boiling oil but survived it?",
     incorrectAnswers: [
-      "Canaan",
-      "Bethlehem",
-      "Judah",
+      "Philip",
+      "James",
+      "Peter",
     ],
-    correctAnswer: "Cana",
+    correctAnswer: "John",
   },
   {
     question: "What book of the Bible explains in details why we should pay our tithes?",
@@ -160,13 +160,13 @@ const data = [
     correctAnswer: "30",
   },
   {
-    question: "How many times did David say he prayed daily?",
+    question: "How many times did David say he Praised God daily?",
     incorrectAnswers: [
+      "3",
       "7",
-      "4",
       "10",
     ],
-    correctAnswer: "3",
+    correctAnswer: "7",
   },
   ];
   
