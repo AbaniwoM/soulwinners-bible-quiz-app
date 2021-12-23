@@ -10,8 +10,17 @@ const Quiz = () => {
     console.log("quizState", quizState);
     return (
     <div className="quiz">
+            
         {quizState.showResults && (
-            <div className="results">
+                <div className="results">
+                    <div>
+                    <div class="box">
+                        <div class="tree tree1"></div>
+                        <div class="tree tree2"></div>
+                        <div class="tree tree3"></div>
+                        <div class="snow"></div>
+                    </div>
+                    </div>
                 <div className="congratulations">Congratulations!</div>
                 <div className="results-info">
                     <div>You have completed the quiz.</div>
@@ -22,6 +31,7 @@ const Quiz = () => {
         )}
         {!quizState.showResults && (
             <div className="container">
+            <div className="overlay"></div>
             <div className="header">
                 <div className="dove">
                     <GiDove />
