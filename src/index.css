@@ -321,7 +321,7 @@ body {
   .results {
     margin-left: 20px;
     width: 27%;
-    height: 81vh;
+    height: 74vh;
     margin-top: -58px;
   }
 
@@ -332,7 +332,7 @@ body {
   .restart-button {
     width: 43%;
     font-size: 0.9rem;
-    margin-top: 25px;
+    margin-top: 20px;
   }
 
   .results-info {
@@ -439,7 +439,7 @@ body {
   .results {
     margin-left: 6px;
     width: 30%;
-    height: 85vh;
+    height: 74vh;
     margin-top: -67px;
   }
 
@@ -556,7 +556,7 @@ body {
   .results {
     margin-left: 15px;
     width: 30%;
-    height: 85vh;
+    height: 74vh;
     margin-top: -67px;
   }
 
