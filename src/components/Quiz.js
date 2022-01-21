@@ -31,6 +31,7 @@ const Quiz = () => {
         )}
         {!quizState.showResults && (
             <div className="container">
+            <div className="cover">
             <div className="overlay"></div>
             <div className="header">
                 <div className="dove">
@@ -51,8 +52,9 @@ const Quiz = () => {
                     <div className="social"><a href="https://chat.whatsapp.com/DNGOnLvPmkNG6mFfof1Y7B"><ImWhatsapp /></a></div>
             </div>
             <div className="copy-right">
-               <h3>Built by <a href="https://mobile.twitter.com/_codedr">@_codedr</a></h3>
                <h4>&copy; 2021</h4>
+               <h3>The SOUL Winners. All Rights Reserved. Designed and Implemented by <a href="https://mobile.twitter.com/_codedr">@_codedr</a></h3>
+            </div>
             </div>
             </div>
         )}
