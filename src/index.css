@@ -389,7 +389,7 @@ body {
     margin-left: 15px;
     width: 28%;
     margin-top: -75px;
-    height: 88vh;
+    height: 22vh;
   }
 
   .answers {
@@ -526,7 +526,7 @@ body {
     margin-left: 15px;
     width: 28%;
     margin-top: -75px;
-    height: 88vh;
+    height: 22vh;
   }
 
   .answers {
@@ -663,7 +663,7 @@ body {
     margin-left: 42px;
     width: 28%;
     margin-top: -75px;
-    height: 88vh;
+    height: 22vh;
   }
 
   .answers {
@@ -800,7 +800,7 @@ body {
     margin-left: 176px;
     width: 28%;
     margin-top: -75px;
-    height: 88vh;
+    height: 22vh;
   }
 
   .answers {
@@ -898,11 +898,138 @@ body {
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-  .copy-right {
+  body {
+    overflow: hidden;
+    position: fixed;
+    margin-left: 35px;
+  }
+
+  .results {
+    margin-left: 6px;
+    width: 30%;
+    height: 74vh;
+    margin-top: -67px;
+  }
+
+  .congratulations {
+    font-size: 2.2rem;
+  }
+
+  .restart-button {
+    width: 49%;
+    font-size: 1rem;
+  }
+
+  .results-info {
+    font-size: 1.1rem;
+    margin-top: -5px;
+  }
+
+  .box {
+    height: 40vh;
+  }
+
+  .box {
+    height: 40vh;
+  }
+
+  .cover {
+    margin-left: 220px;
+    width: 48%;
+    margin-top: -85px;
+    height: 22vh;
+  }
+
+  .answers {
+    display: flex;
+    flex-direction: column;
     margin-left: 20px;
+    width: 75%;
+    font-size: 0.6rem;
+    margin-top: 20px;
+  }
+
+  .answer {
+    min-height: 30px;
+    width: 83%;
+    margin-bottom: 15px;
+  }
+
+  .answer-letter {
+    font-size: 0.7rem;
+  }
+
+  .answer-text {
+    font-size: 0.7rem;
+  }
+
+  .question {
+    width: 83%;
+    margin-left: 28px;
+    margin-top: 5px;
+    font-size: 0.6rem;
+    min-height: 40px;
+  }
+
+  .score {
+    margin-left: -145px;
+    margin-top: -8px;
+    font-size: 0.7rem;
+    width: 95px;
+    height: 30px;
+  }
+
+  .header {
+    margin-top: 70px;
+    margin-left: -17px;
+  }
+
+  .header h1 {
+    font-size: 0.7rem;
+    margin-left: 155px;
+    margin-top: -45px;
+  }
+
+  .dove {
+    margin-left: 135px;
+    font-size: 1.5rem;
+    margin-top: -57px;
+  }
+
+  .next-button {
+    margin-left: 190px;
+    width: 70px;
+    font-size: 0.5rem;
+    text-align: center;
+    margin-top: 275px;
+    height: 12px;
+    padding: 10px;
+    padding-top: 10px;
+  }
+
+  .copy-right {
+    margin-left: 90px;
+    width: 80%;
+    margin-top: 407px;
+    font-size: 0.5rem;
+    display: flex;
+  }
+
+  .copy-right h4 {
+    font-size: 0.6rem;
+    margin-left: 6px;
+    margin-top: 9px;
+    margin-right: -123px;
+    width: 40%;
   }
 
   .social-icons {
-    margin-left: 760px;
+    margin-left: 172px;
+    margin-top: -58px;
+    font-size: 0.7rem;
+  }
+
+  .social {
+    padding-left: 10px;
   }
 }
