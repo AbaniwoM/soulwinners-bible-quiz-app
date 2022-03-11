@@ -1,12 +1,12 @@
 const data = [
     {
-      question: "When will Jesus Christ come for the saints?",
+      question: "What is the third Fruit of the Spirit?",
       incorrectAnswers: [
-        "Not sure",
-        "Next Year",
-        "Now",
+        "Kindness",
+        "Joy",
+        "Love",
       ],
-      correctAnswer: "We were not told",
+      correctAnswer: "Peace",
     },
   
     {
@@ -38,13 +38,13 @@ const data = [
       correctAnswer: "Temperance",
     },
     {
-      question: "At Jesus Chirst's ascension, who assured the disciples that Jesus Christ will come again?",
+      question: "Where can we find the gifts of the Holy Spirit in the Bible?",
       incorrectAnswers: [
-        "Men",
-        "The Holy Spirit",
-        "God",
+        "Romans 12",
+        "Exodus 4",
+        "Galatians 5",
       ],
-      correctAnswer: "The Angels",
+      correctAnswer: "1 Corinthians 12",
     },
     {
       question: "Paul had a Revelation of Christ on his way to _________ ?",
@@ -97,13 +97,13 @@ const data = [
     correctAnswer: "The Trumpet",
   },
   {
-    question: "The way to Heaven is very _________ ?",
+    question: "The way to Hell is very _________ ?",
     incorrectAnswers: [
       "Broad",
       "Long",
-      "Wide",
+      "Narrow",
     ],
-    correctAnswer: "Narrow",
+    correctAnswer: "Wide",
   },
   {
     question: "What Armour of God is worn on the head?",
