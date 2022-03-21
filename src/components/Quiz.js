@@ -2,7 +2,7 @@ import {useContext} from "react";
 import {QuizContext} from "../contexts/quiz";
 import Question from "./Question";
 import { GiDove } from "react-icons/gi";
-import { ImTwitter, ImFacebook, ImWhatsapp } from "react-icons/im";
+import { ImTwitter, ImFacebook } from "react-icons/im";
 import { BsInstagram, BsYoutube } from "react-icons/bs";
 
 const Quiz = () => {
@@ -49,7 +49,7 @@ const Quiz = () => {
                     <div className="social"><a href="https://www.youtube.com/channel/UCC8rsiKPmRINhEdz4FRYRkw"><BsYoutube /></a></div>
                     <div className="social"><a href="https://www.instagram.com/thesoulwinners/"><BsInstagram /></a></div>
                     <div className="social"><a href="https://mobile.twitter.com/_thesoulwinners"><ImTwitter /></a></div>
-                    <div className="social"><a href="https://chat.whatsapp.com/DNGOnLvPmkNG6mFfof1Y7B"><ImWhatsapp /></a></div>
+                    {/* <div className="social"><a href="https://chat.whatsapp.com/DNGOnLvPmkNG6mFfof1Y7B"><ImWhatsapp /></a></div> */}
             </div>
             <div className="copy-right">
                <h4>&copy; 2021</h4>
